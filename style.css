@@ -1,0 +1,95 @@
+body{
+    font-family: 'Muli', sans-serif;
+}
+h1{
+    color: rgba(238, 10, 124, 0.925);
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: grey;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+.half-width img{
+    width: 100%;
+    margin-left: -45%;
+    margin-top: -30%;
+ 
+}
+.header-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+section{
+    height: 500px;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, red, tomato);
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.biography-section{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.middle-width{
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 0%;
+    
+}
+.middle-width img{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: -20%;
+}
+.work-width{
+    width: 27%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 1%;
+}
+.work-width img{
+    width: 100%;
+}
+.work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box{
+    text-align: center;
+    color:  white;
+    background-color: rgb(243, 34, 104);
+    box-sizing: border-box;
+    border: 5 px solid;
+    border-radius: 5px;
+    width: 40%;
+    padding: 5px 10px;
+    margin: 50px 400px;
+
+}
+.footer-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+}
